@@ -1,14 +1,13 @@
 package com.techproed.day05;
 
-import com.techproed.testBase.jsonplaceholderTestBase;
+import com.techproed.testBase.JsonPlaceHolderTestBase;
 import io.restassured.response.Response;
-import org.hamcrest.Matchers;
 import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class GetRequest06 extends jsonplaceholderTestBase {
+public class GetRequest06 extends JsonPlaceHolderTestBase {
 
     @Test
     public void test(){
